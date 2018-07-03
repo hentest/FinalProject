@@ -248,6 +248,7 @@
     </Content>
     <Content Include="beaches.json" />
     <Content Include="Articles.json" />
+    <Content Include=".gitginore" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -262,8 +263,11 @@
     <Content Include="Scripts\_references.js" />
     <Content Include="Visual\Images\FIFA logo.png" />
     <Content Include="Visual\Images\Fifa_World_Cup_Russia_2018_logo.png" />
+    <Content Include="Visual\Images\games.png" />
     <Content Include="Visual\Images\Kingsman_8c9c7b_5935630.jpg" />
     <Content Include="Visual\Images\new on the wave.png" />
+    <Content Include="Visual\Images\s5a262ebe94733.png" />
+    <Content Include="Visual\Images\world-cup-bracket-printable.jpg" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -331,6 +335,7 @@
     <Content Include="Views\Account\SearchUsers.cshtml" />
     <Content Include="Views\Enter\Diagnostics.cshtml" />
     <Content Include="Views\Beach\Details.cshtml" />
+    <Content Include="Views\News\Status.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Visual\Videos\" />

@@ -15,7 +15,7 @@
         <br /><br />
         <header>
             <img src="~/Visual/Images/Fifa_World_Cup_Russia_2018_logo.png" alt="FIFA World Cup 2018" style="width:25%; margin-left:8%;" class="logo"
-                 onclick="location.href='@Url.Action("Index", "News")'" />
+                 onclick="location.href='@Url.Action("Status", "News")'" />
         </header>
         <br /><br />
         <div class="navbar navbar-inverse navbar-fixed-top">
@@ -26,7 +26,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    @Html.ActionLink("FIFA World Cup 2018", "Index", "News", new { area = "" }, new { @class = "navbar-brand" })
+                    @Html.ActionLink("FIFA World Cup 2018", "Status", "News", new { area = "" }, new { @class = "navbar-brand" })
                 </div>
                 <div class="navbar-collapse collapse" id="slow">
                     <ul class="nav navbar-nav">
